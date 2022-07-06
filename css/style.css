@@ -6,6 +6,29 @@
     box-sizing: border-box;
 }
 
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #dbcc43;
+    transition: all 0.3s linear;
+}
+
+p:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(216, 112, 211);
+    transition: all 0.3s linear;
+}
+
+li:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(85, 8, 34);
+    transition: all 0.3s linear;
+}
+
+a:focus {
+    transition: all 0.3s linear;
+    outline: none;
+    box-shadow: 0 0 0 3px rgb(100, 194, 32);
+}
 .container {
     width: 1200px;
     margin: 0 auto;
